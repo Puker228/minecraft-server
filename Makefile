@@ -1,8 +1,11 @@
 up:
 	@docker-compose up -d
 
-restart:
+rebuild:
 	@docker-compose stop && docker-compose build && docker-compose up -d
 
 stop:
 	@docker-compose stop
+
+restart:
+	@docker-compose restart

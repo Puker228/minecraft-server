@@ -17,7 +17,7 @@ services:
       ONLINE_MODE: false
       FORGE_VERSION: 10.13.4.1614
       MAX_PLAYERS: 4
-      MEMORY: 3G
+      MEMORY: 1G
       RCON_PASSWORD: "changethis!"
     networks:
       - app_network

@@ -24,6 +24,11 @@ services:
     volumes:
       - mcdata:/data
       - ./mods:/data/mods
+    healthcheck:
+      test: mc-health
+      start_period: 1m
+      interval: 5s
+      retries: 20
 
   web:
     image: itzg/rcon

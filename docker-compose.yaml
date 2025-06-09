@@ -18,6 +18,7 @@ services:
       FORGE_VERSION: 10.13.4.1614
       MAX_PLAYERS: 4
       MEMORY: 1G
+      LEVEL_TYPE: MiddleEarth
       RCON_PASSWORD: "changethis!"
     networks:
       - app_network
